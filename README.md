@@ -11,16 +11,24 @@ Here I trained the models for 100 epochs, with 64 batches of batch size 128
 
 ## [Convolutional Neural Network (CNN)](./CNN.ipynb)
 
-Here I trained the models on the MNIST dataset for 3 epochs, with a batch size of 16
+Here I trained the models on the MNIST dataset for 3 epochs, with a batch size of 64
 
 | device     | training time | difference    |
 | ---------- | ------------- | ------------- |
 | CPU        | ~58.1s        |               |
 | GPU (cuda) | ~47.3s        | 22.90% faster |
 
+## [Recurrent Neural Network (RNN)](./RNN.ipynb)
+
+Here I trained the models on the MNIST dataset for 3 epochs, with a batch size of 64
+
+| device     | training time | difference    |
+| ---------- | ------------- | ------------- |
+| CPU        | ~65.2s        |               |
+| GPU (cuda) | ~45.8s        | 42.35% faster |
+
 ## TO-DO
 
-- Recurrent Neural Network (RNN)
 - Generative Adversarial Network (GAN)
 - Autoencoder
 - Transformers
