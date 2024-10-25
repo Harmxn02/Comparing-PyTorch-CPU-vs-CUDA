@@ -1,5 +1,7 @@
 # PyTorch: CUDA vs CPU
 
+The training for CUDA was done using a NVIDIA RTX 3060 Laptop GPU. The training for CPU was done using AMD Ryzen 5 5600H. Perhaps not a fair comparison, but those are the physical devices my laptop came with.
+
 ## [Simple feedforward neural network (FNN)](./FNN.ipynb)
 
 Here I trained the models for 100 epochs, with 64 batches of batch size 128
