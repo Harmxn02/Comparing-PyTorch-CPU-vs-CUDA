@@ -29,8 +29,16 @@ Here I trained the models on the MNIST dataset for 3 epochs, with a batch size o
 | CPU        | ~65.2s        |               |
 | GPU (cuda) | ~45.8s        | 42.35% faster |
 
+## [Generative Adversarial Network (GAN)](./RNN.ipynb)
+
+Here I trained the models on the MNIST dataset for 3 epochs, with a batch size of 64
+
+| device     | training time | difference       |
+| ---------- | ------------- | ---------------- |
+| CPU        | ~51.7s        |                  |
+| GPU (cuda) | ~55.2s        | 6.40% **slower** |
+
 ## TO-DO
 
-- Generative Adversarial Network (GAN)
 - Autoencoder
 - Transformers
