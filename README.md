@@ -37,12 +37,10 @@ Here I trained the models on the MNIST dataset for 3 epochs, with a batch size o
 
 Here I trained the models on the MNIST dataset for 3 epochs, with a batch size of 64
 
-| device     | training time | difference       |
-| ---------- | ------------- | ---------------- |
-| CPU        | ~51.7s        |                  |
-| GPU (cuda) | ~55.2s        | 6.40% **slower** |
-
-> Quite surprisingly, GAN does not seem to benefit from training on GPU as much as the other architectures.
+| device     | training time | difference    |
+| ---------- | ------------- | ------------- |
+| CPU        | ~57.9s        |               |
+| GPU (cuda) | ~48.3s        | 19.86% faster |
 
 ## TO-DO
 
